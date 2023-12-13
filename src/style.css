@@ -1,0 +1,122 @@
+body,
+html,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+input {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  color: #666;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+}
+
+.section {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+.section img.img-s {
+  margin: 0;
+  padding: 0;
+  max-width: 600px;
+  width: 100%;
+}
+
+.section img.img-b {
+  max-width: 150px;
+}
+
+.buttons {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  bottom: 10%;
+  text-align: center;
+  margin: auto;
+}
+
+.btn-package {
+  text-align: center;
+  padding: 20px;
+}
+
+.btns {
+  padding: 10px 20px;
+  font-weight: bold;
+  background: rgba(48, 148, 60, 1);
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  width: auto;
+  cursor: pointer;
+}
+
+#csSupport {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  bottom: 5%;
+  text-align: center;
+}
+
+.loops-group {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.loops-group label {
+  font-weight: bold;
+}
+
+.loops-group input {
+  display: block;
+  margin: 4px 0;
+  padding: 10px;
+  width: 90%;
+  border: 1px solid #b9d1be;
+  border-radius: 8px;
+}
+
+.loops-group textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.loops-group input.loops-submit {
+  padding: 10px 20px;
+  font-weight: bold;
+  background: rgba(48, 148, 60, 1);
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  width: auto;
+  cursor: pointer;
+}
+
+.loops-group input.loops-submit:hover {
+  opacity: 0.8;
+}
+
+.loops-footer {
+  font-size: 11px;
+  color: #ccc;
+  font-style: italic;
+}
+
+.red {
+  color: #b30000;
+}
